@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffff;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: tomato; */
+}
+
+/*==================
+    Header part
+ ====================*/
+.header-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    padding: 50px;
+
+}
+.pre-button{
+    background-color:#E02C6D ;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    outline: 0;
+    font-weight: 700;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Partners section */
