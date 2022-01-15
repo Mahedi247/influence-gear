@@ -229,10 +229,14 @@ footer{
 /* media query for responsive layout */
 @media only screen  and (max-width:688px){
     .header-top-title{
-        margin-left: 100px;
+        text-align: center;
     }
     .header-part{
+        display: flex;
         flex-direction: column;
+    }
+    .header-left{
+        text-align: center;
     }
     .header-right{
         order:1;
